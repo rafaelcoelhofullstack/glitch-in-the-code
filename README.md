@@ -11,17 +11,23 @@ Desenvolva seu projeto a partir deste repositório, utilizando uma branch espec�
 
 1. Clone o repositório
 
-	*  Use o comando: `git clone git@github.com:UnifelDesenvolvimentoWeb/magic-functions.git`
+	*  Use o comando: 
+  `git clone https://github.com/MarcleyRosa/glitch-in-the-code.git`
 
 * Entre na pasta do repositório que você acabou de clonar:
 
-	*  `cd magic-functions`
+	*  `cd glitch-in-the-code`
 
 2. Instale as dependências
 
 	* Para isso, use o seguinte comando: `npm install`
+	
+</details>
 
-3. Crie uma branch a partir da branch `master`
+<details>
+<summary><strong>Abrindo um Pull Request</strong></summary><br />
+
+1. Crie uma branch a partir da branch `master`
 
 	* Verifique se você está na branch `master`
 	  * Exemplo: `git branch`
@@ -29,9 +35,9 @@ Desenvolva seu projeto a partir deste repositório, utilizando uma branch espec�
 	  * Exemplo: `git checkout master`
 	* Agora, crie uma branch para qual você vai submeter os `commits` do seu projeto:
 		* Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-		* Exemplo: `git checkout -b maria-magic-functions`
+		* Exemplo: `git checkout -b maria-alves-glitch-in-the-code`
 
-4. Desenvolva algum requisito do projeto e logo em seguida adicione as mudanças ao _stage_ do Git e faça um `commit`
+2. Adicione as mudanças ao _stage_ do Git e faça um `commit`
 	* Verifique que as mudanças ainda não estão no _stage_
 	  * Exemplo: `git status` (os arquivos no diretório `src` devem aparecer em vermelho)
 
@@ -40,25 +46,23 @@ Desenvolva seu projeto a partir deste repositório, utilizando uma branch espec�
 	  *  `git status` (deve aparecer listado os arquivos do diretório `src` em verde)
 
 	* Faça o `commit` inicial
-	  * Exemplo: `git commit -m 'iniciando o projeto - requisito 01.'` (fazendo o primeiro commit)
+	  * Exemplo: `git commit -m 'iniciando o projeto.'` (fazendo o primeiro commit)
 	*  `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
+3. Adicione a sua branch com o novo `commit` ao repositório remoto
 
-	* Usando o exemplo anterior: `git push -u origin maria-magic-functions`
+	* Usando o exemplo anterior: `git checkout -b maria-alves-glitch-in-the-code`
 
-
-**Atenção: essa etapa de PR só executa uma vez**
-
-6. Crie um novo `Pull Request`  _(PR)_
-	* Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/UnifelDesenvolvimentoWeb/magic-functions/pulls)
+4. Crie um novo `Pull Request`  _(PR)_
+	* Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/MarcleyRosa/glitch-in-the-code/pulls)
 	* Clique no botão verde _"New pull request"_
 	* Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
 	* Coloque um título para o seu _Pull Request_
-    * Exemplo: _"Cria tela de busca"_
+    * Exemplo: _"Cria função x"_
 	* Clique no botão verde _"Create pull request"_
 	* Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-	* Volte até a [página de _Pull Requests_ do repositório](https://github.com/UnifelDesenvolvimentoWeb/magic-functions/pulls) e confira que o seu _Pull Request_ está criado.
+	*  **Não se preocupe em preencher mais nada por enquanto!**
+	* Volte até a [página de _Pull Requests_ do repositório](https://github.com/MarcleyRosa/glitch-in-the-code/pulls) e confira que o seu _Pull Request_ está criado.
 	
 </details>
 	
