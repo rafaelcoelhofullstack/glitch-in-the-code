@@ -1,5 +1,5 @@
 
-# Repositório do projeto Glitch in the code!
+# Repositório do projeto Glitch in the ~~Matrix~~ code!
 
 Desenvolva seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para enviar seus códigos.
 
