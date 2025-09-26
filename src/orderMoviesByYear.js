@@ -1,17 +1,13 @@
 const movies = require('../data/movies')
 
 const orderMoviesByYear = (movies) => {
-  return (
-    movies
-      /*
+  return movies /*
     .map((filme) => {
       return filme.anoLancamento
     })*/
-      .sort((a, b) => {
-        a.anoLancamento - b.anoLancamento
-      })
-      .map((filme) => filme.titulo)
-  )
+    .sort((a, b) => {
+      return a.anoLancamento - b.anoLancamento
+    })
 }
 
 console.log(orderMoviesByYear(movies))

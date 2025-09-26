@@ -6,7 +6,7 @@ const actorsInMovie = (titulo) => {
   if (movie) {
     return movie.elenco.slice(0, 2)
   } else {
-    console.log('Filme não encontrado.')
+    return 'Filme não encontrado.'
   }
 }
 
